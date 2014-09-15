@@ -27,7 +27,7 @@
   </dependencies>
   
   <scm>
-    <Connection>scm:git:https://github.com/sumitkaul/sumit-maven-release-plugin-release.git</Connection>
+    <developerConnection>scm:git:https://github.com/sumitkaul/sumit-maven-release-plugin-release.git</developerConnection>
   </scm>
   
   <distributionManagement>
