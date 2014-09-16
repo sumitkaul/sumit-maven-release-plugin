@@ -11,7 +11,9 @@
   <url>http://maven.apache.org</url>
     
   <scm>
-	 <developerConnection>scm:git:https://github.com/sumitkaul/sumit-maven-release-plugin-release.git</developerConnection>
+	 <connection>scm:git:https://github.com/sumitkaul/sumit-maven-release-plugin.git</coneection>
+	 <developerConnection>scm:git:https://github.com/sumitkaul/sumit-maven-release-plugin.git</developerConnection>
+	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url>
   </scm>
  
   <build>
