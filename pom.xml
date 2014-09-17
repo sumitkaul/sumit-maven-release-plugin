@@ -17,6 +17,7 @@
 	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url>
   
 
+    
   </scm>
  
   <build>
