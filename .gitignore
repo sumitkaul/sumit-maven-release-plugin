@@ -1,7 +1,8 @@
 
 
-*.classes
+
 target/**
 *.jar
 pom.xml.releaseBackup
 release.properties
+*.classes
