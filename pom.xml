@@ -58,11 +58,7 @@
 	
   
    <distributionManagement>
-	   <server>
-		  <id>http://zlpheies005.phe.fs.fed.us:8081</id>
-		  <username>admin</username>
-		 <password>AP79DFyQLWqXJdJRZg6BEiYLkej</password>
-		</server>
+	  
 		<repository>
 		  <id>libs-release-dev-github</id>
 		  <name>libs-release-dev-github</name>
