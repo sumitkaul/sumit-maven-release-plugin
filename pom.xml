@@ -16,8 +16,7 @@
 	 <developerConnection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</developerConnection>
 	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url>  
    
-    
-    <tag>my-app-1.0</tag>
+   
   </scm>
  
   <build>
@@ -63,13 +62,13 @@
 		<repository>
 		  <id>libs-release-dev-github</id>
 		  <name>libs-release-dev-github</name>
-		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-release-dev-github/</url>
+		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/</url>
 		</repository>
 		
 		<snapshotRepository>
 		  <id>libs-snapshot-dev-github</id>
 		  <name>libs-snapshot-dev-github</name>
-		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-snapshot-dev-github/</url>
+		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/</url>
 		</snapshotRepository>
 		
   </distributionManagement>
