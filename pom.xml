@@ -16,7 +16,6 @@
 	 <developerConnection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</developerConnection>
 	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url>  
    
-    
   </scm>
  
   <build>
@@ -36,6 +35,12 @@
 				<connectionType>connection</connectionType>
 			</configuration>
       </plugin>
+	  
+	  <plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-deploy-plugin</artifactId>
+		  <version>2.7</version>
+	</plugin>
     
 	</plugins>
   </build>
@@ -48,18 +53,25 @@
 		  <scope>test</scope>
 		</dependency>
   </dependencies>
+	  
+	<server>
+	  <id>http://zlpheies005.phe.fs.fed.us:8081</id>
+	  <username>admin</username>
+	 <password>AP79DFyQLWqXJdJRZg6BEiYLkej</password>
+	</server
+	
   
    <distributionManagement>
 		<repository>
-		  <id>releases</id>
+		  <id>libs-release-dev-github</id>
 		  <name>libs-release-dev-github</name>
-		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/</url>
+		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-release-dev-github/</url>
 		</repository>
 		
 		<snapshotRepository>
-		  <id>releases</id>
-		  <name> libs-snapshot-dev-github</name>
-		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/</url>
+		  <id>libs-snapshot-dev-github</id>
+		  <name>libs-snapshot-dev-github</name>
+		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-snapshot-dev-github/</url>
 		</snapshotRepository>
 		
   </distributionManagement>
