@@ -4,7 +4,7 @@
   
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>12.0-SNAPSHOT</version>
+  <version>13.0-SNAPSHOT</version>
   <packaging>jar</packaging>
   
   <name>my-app</name>
@@ -56,21 +56,18 @@
 		  <scope>test</scope>
 		</dependency>
   </dependencies>
-	  
-	
-	
-  
-   <distributionManagement>
+	 
+    <distributionManagement>
 		<repository>
 		  <id>libs-release-dev-github</id>
 		  <name>libs-release-dev-github</name>
-		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/</url>
+		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-release-dev-github/</url>
 		</repository>
 		
 		<snapshotRepository>
 		  <id>libs-snapshot-dev-github</id>
 		  <name>libs-snapshot-dev-github</name>
-		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/</url>
+		  <url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-snapshot-dev-github/</url>
 		</snapshotRepository>
 		
   </distributionManagement>
