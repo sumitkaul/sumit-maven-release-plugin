@@ -15,7 +15,7 @@
 	 <connection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</connection>
 	 <developerConnection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</developerConnection>
 	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url> 
-    <tag>HEAD</tag>
+    <tag>my-app-14.0</tag>
   </scm>
  
   <build>
