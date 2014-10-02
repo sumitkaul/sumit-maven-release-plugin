@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World! Sumit Kaul" );
+        System.out.println( "Hello World! Sumit Kaul - Test the Maven release plugin results" );
     }
 }
