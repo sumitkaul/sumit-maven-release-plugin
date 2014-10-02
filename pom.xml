@@ -75,7 +75,7 @@
 		<repository>
 			<id>zlpheies005.phe.fs.fed.us</id>
 			<name>zlpheies005.phe.fs.fed.us-releases</name>
-			<url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/libs-release-dev-github</url>
+			<url>http://zlpheies005.phe.fs.fed.us:8081/artifactory/simple/libs-release-qa</url>
 		</repository>
 		
 		<snapshotRepository>
