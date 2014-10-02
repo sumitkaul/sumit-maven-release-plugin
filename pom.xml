@@ -4,7 +4,7 @@
   
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>44.0.10</version>
+  <version>44.0.11-SNAPSHOT</version>
   <packaging>jar</packaging>
  
   <name>my-app</name>
@@ -15,7 +15,7 @@
 	 <connection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</connection>
 	 <developerConnection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</developerConnection>
 	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url> 
-     <tag>my-app-44.0.10</tag>
+     <tag>HEAD</tag>
   </scm>
  
   <build>
