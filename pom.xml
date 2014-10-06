@@ -10,6 +10,7 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>	
     
+	
   <scm>
 	 
 	 <connection>scm:git:ssh://git@github.com/sumitkaul/sumit-maven-release-plugin.git</connection>
@@ -17,7 +18,9 @@
 	 <url>https://github.com/sumitkaul/sumit-maven-release-plugin.git</url> 
      <tag>HEAD</tag>
   </scm>
+  
  
+ <!--  -->>
   <build>
     <plugins>
       
